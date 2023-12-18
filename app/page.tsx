@@ -31,10 +31,10 @@ export default async function Home() {
               <p>{allCars?.message()}</p>
             </div>
           ) : (
-          <section className="w-full">
+          <section>
             <div className='home__cars-wrapper'>
               {allCars?.map((car) => (
-                <CarCard car={car} />
+                <CarCard car={car} key={car} />
               ))}
             </div>
             </section>

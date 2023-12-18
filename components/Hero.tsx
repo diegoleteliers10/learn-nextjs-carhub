@@ -4,9 +4,15 @@ import Image from 'next/image'
 import { CustomButton } from './index'
 
 const Hero = () => {
-  const handleScroll = ()=>{
 
-  }
+  const handleScroll = () => {
+    const nextSection = document.getElementById("discover");
+
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
 
   return (
     <div className="hero">

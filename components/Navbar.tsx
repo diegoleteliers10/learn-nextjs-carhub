@@ -15,19 +15,12 @@ const Navbar = () => {
             className='object-contain'
           />
         </Link>
-
-        <div className='max-w-[1440px] flex justify-between items-center sm:px-16 px-4 py-2'>
+        
           <CustomButton
             title='Sign In'
             btnType='button'
             containerStyles='text-primary-blue bg-white rounded-full min-w-[130px]'
           />
-          <CustomButton
-            title='Login'
-            btnType='button'
-            containerStyles='text-primary-blue bg-white rounded-full min-w-[130px]'
-          />
-        </div>
       </nav>
     </header>
   )
